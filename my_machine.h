@@ -108,7 +108,7 @@
 // Optional control signals:
 // These will be assigned to aux input pins. Use the $pins command to check which pins are assigned.
 // NOTE: If not enough pins are available assignment will silently fail.
-//#define PROBE_ENABLE            0 // Default enabled, remove comment to disable probe input.
+#define PROBE_ENABLE            0 // Default enabled, remove comment to disable probe input.
 //#define PROBE2_ENABLE           1 // Enable second regular probe input, depending on the board the input assigned may be predefined.
 //#define TOOLSETTER_ENABLE       1 // Enable toolsetter input, depending on the board the input assigned may be predefined.
 //#define SAFETY_DOOR_ENABLE      1
@@ -124,7 +124,7 @@
 // of axes can be enabled here.
 //#define X_GANGED             1
 //#define X_AUTO_SQUARE        1
-//#define Y_GANGED             1
+#define Y_GANGED             1
 //#define Y_AUTO_SQUARE        1
 //#define Z_GANGED             1
 //#define Z_AUTO_SQUARE        1
